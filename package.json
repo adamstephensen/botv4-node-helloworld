@@ -1,15 +1,12 @@
 {
-  "name": "myjsbots",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "botbuilder": "^4.0.0-preview1.2",
-    "restify": "^7.2.1"
-  }
+    "name": "hello-node",
+    "dependencies": {
+        "botbuilder": "^4.0.0-preview1.1",
+        "dotenv": "^2.0.0",
+        "restify": "^4.3.0"
+    },
+    "devDependencies": {
+        "@types/node": "^6.0.52",
+        "@types/restify": "^2.0.35"
+    }
 }
